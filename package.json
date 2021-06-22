@@ -1,0 +1,69 @@
+{
+    "name": "blackpearl",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": {
+      "packages": [
+        "packages/*"
+      ]
+    },
+    "license": "MIT",
+    "scripts": {
+      "build:components": "lerna exec --parallel -- rollup -c ../../rollup.config.js",
+      "clean:components": "lerna exec -- rm -rf dist",
+      "lint:components": "eslint packages --ext js,jsx",
+      "start:docs": "rm -rf .docz && docz dev",
+      "build:docs": "docz build",
+      "serve:docs": "docz serve"
+    },
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^1.2.30",
+      "@fortawesome/free-solid-svg-icons": "^5.14.0",
+      "@fortawesome/react-fontawesome": "^0.1.11",
+      "docz": "^2.3.1",
+      "gatsby-theme-docz": "^2.3.1",
+      "polished": "^3.6.6",
+      "prop-types": "^15.7.2",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "styled-components": "^5.1.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.11.4",
+      "@babel/plugin-proposal-class-properties": "^7.10.4",
+      "@babel/plugin-transform-runtime": "^7.11.0",
+      "@babel/preset-env": "^7.11.0",
+      "@babel/preset-react": "^7.10.4",
+      "@commitlint/cli": "^9.1.2",
+      "@commitlint/config-conventional": "^9.1.2",
+      "@testing-library/jest-dom": "^5.11.3",
+      "@testing-library/react": "^10.4.9",
+      "@testing-library/user-event": "^12.1.1",
+      "babel-cli": "^6.26.0",
+      "babel-jest": "^26.3.0",
+      "babel-loader": "^8.1.0",
+      "babel-plugin-root-import": "^6.5.0",
+      "commitizen": "^4.1.2",
+      "cz-conventional-changelog": "^3.2.0",
+      "eslint": "^7.7.0",
+      "eslint-config-airbnb": "^18.2.0",
+      "eslint-config-prettier": "^6.11.0",
+      "eslint-plugin-import": "^2.22.0",
+      "eslint-plugin-jsx-a11y": "^6.3.1",
+      "eslint-plugin-prettier": "^3.1.4",
+      "eslint-plugin-react": "^7.20.6",
+      "eslint-plugin-react-hooks": "^4.1.0",
+      "husky": "^4.2.5",
+      "jest": "^26.4.1",
+      "jest-dom": "^4.0.0",
+      "lerna": "^3.22.1",
+      "lint-staged": "^10.2.11",
+      "prettier": "^2.0.5",
+      "rollup": "^2.26.4",
+      "rollup-plugin-babel": "^4.4.0",
+      "rollup-plugin-commonjs": "^10.1.0",
+      "rollup-plugin-node-resolve": "^5.2.0",
+      "rollup-plugin-terser": "^7.0.0",
+      "rollup-plugin-url": "^3.0.1"
+    }
+  }

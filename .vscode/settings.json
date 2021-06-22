@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "terminal.integrated.rendererType": "dom",
+    "files.eol": "\n"
+}
