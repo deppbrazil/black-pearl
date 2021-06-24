@@ -1,0 +1,27 @@
+{
+    "name": "@blackpearl/<%= props.name %>",
+    "version": "0.0.0",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "directories": {
+      "lib": "lib",
+      "test": "__tests__"
+    },
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "rollup -c ../../rollup.config.js",
+      "test": "jest",
+      "watch": "jest --watch"
+    },
+    "peerDependencies": {
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1"
+    },
+    "dependencies": {
+      "styled-components": "^5.1.1"
+    }
+  }
+  

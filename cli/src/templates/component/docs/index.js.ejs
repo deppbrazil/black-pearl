@@ -1,0 +1,27 @@
+---
+name: <%= props.name %>
+route: /<%= props.route %>
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import <%= props.name %> from '../lib';
+
+# <%= props.name %>
+
+## Install
+
+```console
+foo@bar:~$ yarn add @blackpearl/<%= props.route %>
+foo@bar:~$ npm install @blackpearl/<%= props.route %>
+```
+
+## Properties
+
+<Props of={<%= props.name %>} />
+
+## Basic usage
+
+<Playground>
+  <<%= props.name %>>Test</<%= props.name %>>
+</Playground>

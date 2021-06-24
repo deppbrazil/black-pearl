@@ -1,4 +1,4 @@
-# Project name  [![Donate](https://img.shields.io/badge/Donate-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=BKXUAMJSNZN46&item_name=Thanks+for+Help+me%21&currency_code=BRL&source=url)
+# Black Pearl 🏴‍☠️ [![Donate](https://img.shields.io/badge/Donate-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=BKXUAMJSNZN46&item_name=Thanks+for+Help+me%21&currency_code=BRL&source=url)
 
 <!-- Translate -->
 
@@ -46,11 +46,16 @@
   </a>
 </p>
 
-## Get Started
+## Run in main directory
 
 ```console
-foo@bar:~$ npm install, or
-foo@bar:~$ yarn install
+foo@bar:~$ yarn
+```
+
+## Run in /cli directory
+
+```console
+foo@bar:~$ yarn
 ```
 
 * * *

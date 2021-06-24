@@ -1,4 +1,4 @@
-# Nome do projeto [![Doações](https://img.shields.io/badge/Doações-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=BKXUAMJSNZN46&item_name=Thanks+for+Help+me%21&currency_code=BRL&source=url)
+# Pérola Negra 🏴‍☠️ [![Doações](https://img.shields.io/badge/Doações-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=BKXUAMJSNZN46&item_name=Thanks+for+Help+me%21&currency_code=BRL&source=url)
 
 <!-- Traduzir -->
 
@@ -47,13 +47,17 @@
   </a>
 </p>
 
-## Início
+## Rodar no diretório principal
 
 ```console
-foo@bar:~$ npm install, or
-foo@bar:~$ yarn install
+foo@bar:~$ yarn
 ```
 
+## Rodar no diretório /cli
+
+```console
+foo@bar:~$ yarn
+```
 * * *
 
 Copyright © Mir Carvalho 2021
