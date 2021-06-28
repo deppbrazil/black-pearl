@@ -46,16 +46,65 @@
   </a>
 </p>
 
-## Run in main directory
+## Get Started
+
+### Run in main directory
+
+```console
+foo@bar:~$ yarn
+foo@bar:~$ yarn lerna bootstrap
+```
+
+### Run in /cli directory
+
+```console
+foo@bar:~$ yarn
+foo@bar:~$ yarn link
+foo@bar:~$ blackpearl -h
+```
+
+### Run in main directory to view Documentation with DOCZ
+
+```console
+foo@bar:~$ yarn start:docs
+```
+
+### Run for documentation deploy in AWS S3
+
+```console
+foo@bar:~$ blackpearl deploy docs
+```
+
+## Create components
+
+### Run for create new component
+
+```console
+foo@bar:~$ blackpearl generate component NameComponent
+```
+
+### Always run when creating a new component
 
 ```console
 foo@bar:~$ yarn
 ```
 
-## Run in /cli directory
+or,
 
 ```console
-foo@bar:~$ yarn
+foo@bar:~$ yarn lerna bootstrap
+```
+
+### Run a build
+
+```console
+foo@bar:~$ yarn build
+```
+
+### Run a unit tests for componentes
+
+```console
+foo@bar:~$ yarn test
 ```
 
 * * *

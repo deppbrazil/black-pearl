@@ -19,7 +19,6 @@
 <p align="center">
   <!-- Codacy -->
   <a href="https://www.codacy.com/gh/deppbrazil/black-pearl/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=deppbrazil/black-pearl&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/a5099e9dcb8e4dff806f75da82123efd"/></a>
-  </a>
   <!-- Último commit -->
   <a href="https://github.com/deppbrazil/black-pearl/commits/master">
     <img alt="Último commit" src="https://img.shields.io/github/last-commit/deppbrazil/black-pearl.svg">
@@ -47,17 +46,67 @@
   </a>
 </p>
 
-## Rodar no diretório principal
+## Iniciar
+
+### Rodar no diretório principal
+
+```console
+foo@bar:~$ yarn
+foo@bar:~$ yarn lerna bootstrap
+```
+
+### Rodar no diretório /cli
+
+```console
+foo@bar:~$ yarn
+foo@bar:~$ yarn link
+foo@bar:~$ blackpearl -h
+```
+
+### Rodar no diretório principal para ver a documentação com DOCZ
+
+```console
+foo@bar:~$ yarn start:docs
+```
+
+### Rodar para deploy da documentação no AWS S3
+
+```console
+foo@bar:~$ blackpearl deploy docs
+```
+
+## Criar Componente
+
+### Rodar para criar um novo componente
+
+```console
+foo@bar:~$ blackpearl generate component NameComponent
+```
+
+### Rodan sempre logo após ter criado um componente novo
 
 ```console
 foo@bar:~$ yarn
 ```
 
-## Rodar no diretório /cli
+or,
 
 ```console
-foo@bar:~$ yarn
+foo@bar:~$ yarn lerna bootstrap
 ```
+
+### Gerar o build
+
+```console
+foo@bar:~$ yarn build
+```
+
+### Rodar os testes unitários de componente
+
+```console
+foo@bar:~$ yarn test
+```
+
 * * *
 
 Copyright © Mir Carvalho 2021
