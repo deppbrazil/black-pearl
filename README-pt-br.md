@@ -48,6 +48,11 @@
 
 ## Iniciar
 
+### Setup, você precisa de:
+- Nodejs `vs +12.0`
+- Yarn `vs 1.22.*`
+- Lerna `vs +3.0`
+
 ### Rodar no diretório principal
 
 ```console
@@ -87,11 +92,7 @@ foo@bar:~$ blackpearl generate component NameComponent
 
 ```console
 foo@bar:~$ yarn
-```
-
 or,
-
-```console
 foo@bar:~$ yarn lerna bootstrap
 ```
 

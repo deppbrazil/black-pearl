@@ -48,6 +48,11 @@
 
 ## Get Started
 
+### Setup, you need:
+- Nodejs `vs +12.0`
+- Yarn `vs 1.22.*`
+- Lerna `vs +3.0`
+
 ### Run in main directory
 
 ```console
@@ -87,11 +92,7 @@ foo@bar:~$ blackpearl generate component NameComponent
 
 ```console
 foo@bar:~$ yarn
-```
-
 or,
-
-```console
 foo@bar:~$ yarn lerna bootstrap
 ```
 
