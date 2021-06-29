@@ -10,7 +10,7 @@
 
 <!-- License -->
 
-<p align="center>
+<p align="center">
   <a href="./LICENSE">
     <img alt="Software License" src="https://img.shields.io/badge/license-MIT-blue.svg">
   </a>
