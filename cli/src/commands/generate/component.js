@@ -60,9 +60,10 @@ module.exports = {
         props: { name },
       });
 
-      await system.run(`yarn prettier --write ${project}/packages/${name}`);
+      //await system.run(`yarn prettier --write ${project}/packages/${name}`);
 
-      await system.run(`git checkout -b ${name}/0.1.0 master`);
+      // For create new component at new branch componenty
+      //await system.run(`git checkout -b ${name}/0.1.0 master`);
 
       success(`⚓ Componente ${name} criado! ⚓`);
     },
