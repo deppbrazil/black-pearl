@@ -1,7 +1,7 @@
 {
-    "name": "@blackpearl/core",
+    "name": "@black-pearl/core",
     "version": "0.1.0",
-    "description": "Black Pearl core package",
+    "description": "Pakage core at BlackPearl Design System",
     "license": "MIT",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
@@ -9,6 +9,15 @@
       "lib": "lib",
       "test": "__tests__"
     },
+    "publishConfig": {
+      "access": "public"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/deppbrazil/black-pearl"
+    },
+    "keywords": ["design-system", "ui", "library component"],
+    "author": "Mir Carvalho",
     "files": [
       "dist"
     ],
