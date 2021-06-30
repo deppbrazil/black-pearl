@@ -1,0 +1,39 @@
+---
+name: Button
+route: /button
+menu: Components
+---
+
+import { Playground, Props } from 'docz';
+import Button from '../lib';
+
+# Button
+
+## Install
+
+```console
+foo@bar:~$ yarn add @blackpearl/button
+foo@bar:~$ npm install @blackpearl/button
+```
+
+## Properties
+
+<Props of={Button} />
+
+## Types Button
+
+<Playground>
+  <Button>Button</Button>
+  <Button kind="solid">Button</Button>
+  <Button kind="ghost">Button</Button>
+  <Button kind="link">Button</Button>
+</Playground>
+
+## Size Button
+
+<Playground>
+  <Button>Button</Button>
+  <Button size="small">Button</Button>
+  <Button size="medium">Button</Button>
+  <Button size="large">Button</Button>
+</Playground>

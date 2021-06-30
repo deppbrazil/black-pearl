@@ -4,5 +4,7 @@ export default {
     menu: ['Getting started', 'Components'],
     ignore: [
       'LICENSE',
+      'README.md',
+      'README-pt-br.md',
     ],
   };

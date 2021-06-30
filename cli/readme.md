@@ -1,4 +1,4 @@
-# cli CLI
+# CLI
 
 A CLI for cli.
 

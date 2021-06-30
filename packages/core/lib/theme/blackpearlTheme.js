@@ -1,12 +1,12 @@
 export default {
     title: 'blackpearl',
     colors: {
-      primary: '#1F1BD2',
-      secondary: '#303030',
-      tertiary: '#C4C4C4',
-      quaternary: '#D8E7FF',
+      primary: '#000000',
+      secondary: '#f83030',
+      tertiary: '#909090',
+      quaternary: '#CCCCCC',
     },
-  
+
     monochrome: {
       dark100: '#000000',
       light100: '#FFFFFF',
