@@ -2,22 +2,10 @@
 
 <!-- Banner -->
 
-<p align="center">
-  <a href="" target="_blank" >
-    <img alt="Banner" src="../../.github/assets/black-pearl.svg" width="50%" />
-  </a>
-</p>
+[![Banner](../../.github/assets/black-pearl.svg)](https://github.com/deppbrazil/black-pearl)
 
-<!-- License -->
-
-<p align="center">
-  <a href="./LICENSE">
-    <img alt="Software License" src="https://img.shields.io/badge/license-MIT-blue.svg">
-  </a>
-  <a href="./LICENSE">
-    <img alt="Software License" src="https://img.shields.io/badge/Version-0.1.0-blue.svg">
-  </a>
-</p>
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg)](<>)
 
 ## Install
 
