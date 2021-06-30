@@ -8,7 +8,9 @@
 
 [![Banner](./.github/assets/black-pearl.svg)](https://github.com/deppbrazil/black-pearl)
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a5099e9dcb8e4dff806f75da82123efd)](https://www.codacy.com/gh/deppbrazil/black-pearl/dashboard?utm_source=github.com&utm_medium=referral&utm_content=deppbrazil/black-pearl&utm_campaign=Badge_Grade) [![Last commit](https://img.shields.io/github/last-commit/deppbrazil/black-pearl.svg)](https://github.com/deppbrazil/black-pearl/commits/master) [![Repo size](https://img.shields.io/github/repo-size/deppbrazil/black-pearl.svg?color=brightgreen)](https://github.com/deppbrazil/black-pearl) [![Contributors](https://img.shields.io/github/contributors/deppbrazil/black-pearl.svg?color=blue)](https://github.com/deppbrazil/black-pearl/graphs/contributors) [![Language](https://img.shields.io/github/languages/top/deppbrazil/black-pearl.svg)](https://github.com/deppbrazil/black-pearl) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a5099e9dcb8e4dff806f75da82123efd)](https://www.codacy.com/gh/deppbrazil/black-pearl/dashboard?utm_source=github.com&utm_medium=referral&utm_content=deppbrazil/black-pearl&utm_campaign=Badge_Grade)
+[![Repo size](https://img.shields.io/github/repo-size/deppbrazil/black-pearl.svg?color=brightgreen)](https://github.com/deppbrazil/black-pearl)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE)
 
 ## Iniciar
 

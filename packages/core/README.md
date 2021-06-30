@@ -4,8 +4,8 @@
 
 [![Banner](../../.github/assets/black-pearl.svg)](https://github.com/deppbrazil/black-pearl)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg)](<>)
+[![Version](https://img.shields.io/badge/Version-0.1.0-brightgreen.svg)](<>)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE)
 
 ## Install
 
